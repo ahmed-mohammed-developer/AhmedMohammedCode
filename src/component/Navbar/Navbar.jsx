@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import './Navbar.css'
-import Iconimg from '../../assets/img/logoWhite.png'
 import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
@@ -25,27 +24,25 @@ const Navbar = () => {
         });
     }, []);
     return (
-        <nav className="navbar navbar-expand-sm navbar-light fixed-top py-3" id="mainNav">
+        <nav className="navbar navbar-expand-md navbar-light fixed-top py-4" id="mainNav">
             <div className="container px-4 px-lg-5">
                 <a className="navbar-brand py-0" href="#page-top">
                     أحمد محمد
                 </a>
-                
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <FaBars className="fa-bars" />
                 </button>
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav me-auto my-2 my-lg-0">
-                        <li className="nav-item"><a className="nav-link" href="#about">الرئسية</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#services">أحدث الأعمال</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#portfolio">قالب</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#contact">أحدث المقالات</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#contact">المدونة</a></li>
+                        <li className="nav-item"><a className="nav-link margintop" href="#home">الرئسية</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#Latestworks">أحدث الأعمال</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#Latestarticles">أحدث المقالات</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#qalip">قالب</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#blog">المدونة</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     );
 };
-
 export default Navbar;

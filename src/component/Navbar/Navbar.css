@@ -2,12 +2,15 @@
     background-color: #223b40;
 }
 .navbar-brand  {
-    color: #fff;
+    color: #ffffffce;
     font-size: 2rem;
     font-weight: 600;
     line-height: 3.2rem;
     margin-right: 0;
-
+}
+.navbar-brand:hover  {
+    color: #fff;
+    transition: 1s;
 }
 .navbar-toggler {
     border: none;
@@ -18,15 +21,29 @@
    box-shadow: none;
 }
 .navbar-toggler .fa-bars {
-    color: white;
+    color: #ffffffce;
+    font-size: 1.6rem;
+}
+.navbar-toggler .fa-bars:hover {
+    color: #fff;
+    transition: 1s;
 }
 .nav-link {
-    color: #fff;
+    color: #ffffffce;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 2.2rem;
 }
+.nav-link:hover{
+    color: #fff;
+    transition: 1s;
+}
 .navbar-nav {
     column-gap: 2rem;
     row-gap: 0.5rem;
+}
+@media (width < 768px) {
+    .margintop {
+        margin-top: 2.5rem;
+    }
 }
