@@ -1,7 +1,32 @@
 .navbar {
     background-color: #223b40;
 }
-.navbar-brand img {
-    width: 5rem;
-    height: auto;
+.navbar-brand  {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+    margin-right: 0;
+
+}
+.navbar-toggler {
+    border: none;
+    outline: none;
+    padding: 0;
+}
+.navbar-toggler:focus {
+   box-shadow: none;
+}
+.navbar-toggler .fa-bars {
+    color: white;
+}
+.nav-link {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+}
+.navbar-nav {
+    column-gap: 2rem;
+    row-gap: 0.5rem;
 }
