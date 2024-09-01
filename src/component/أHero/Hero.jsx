@@ -1,6 +1,4 @@
 import './Hero.css';
-import Myimage from '../../assets/img/myimage.png';
-import Myimage2 from '../../assets/img/1small.png';
 import data from '../../../public/data.json';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -9,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 var settings = {
   dots: true,
   infinite: true,
-  speed: 500,
+  speed: 800,
   slidesToShow: 2, // عرض صورتين في نفس الوقت
   slidesToScroll: 1, // تمرير صورة واحدة في كل مرة
   adaptiveHeight: true,
