@@ -15,7 +15,7 @@ var settings = {
   rows: 1,
   slidesPerRow: 1,
   autoplay: true,
-  autoplaySpeed: 8000,
+  autoplaySpeed: 60000,
   rtl: true,
   arrows: false,
   responsive: [

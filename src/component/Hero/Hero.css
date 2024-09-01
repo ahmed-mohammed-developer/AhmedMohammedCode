@@ -1,10 +1,8 @@
 .hero {
     margin-top: 6rem;
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    margin-bottom: 5rem;
     /*background-color: #f5f7fa;*/
-}
-.imghero {
 }
 
 .imghero img {
