@@ -1,4 +1,3 @@
-import "./Latestarticles.css";
 import data from "../../../public/data.json";
 import { FaChevronLeft } from "react-icons/fa";
 
@@ -6,7 +5,7 @@ import { FaChevronLeft } from "react-icons/fa";
 
 
 
-const Latestarticles = () => {
+const Mybooks = () => {
   const datablog = data.blog;
   return (
     <div className="latestworks" id="Latestarticles" style={{backgroundColor: "#fff"}}>
@@ -41,4 +40,4 @@ const Latestarticles = () => {
   );
 };
 
-export default Latestarticles;
+export default Mybooks;

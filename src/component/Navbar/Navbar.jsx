@@ -37,6 +37,7 @@ const Navbar = () => {
                         <li className="nav-item"><a className="nav-link margintop" href="#home">الرئسية</a></li>
                         <li className="nav-item"><a className="nav-link" href="#Latestworks">أحدث الأعمال</a></li>
                         <li className="nav-item"><a className="nav-link" href="#Latestarticles">أحدث المقالات</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#Mybooks">المؤلفات</a></li>
                         <li className="nav-item"><a className="nav-link" href="#qalip">قالب</a></li>
                         <li className="nav-item"><a className="nav-link" href="#blog">المدونة</a></li>
                     </ul>
