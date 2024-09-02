@@ -1,0 +1,15 @@
+.Contactme {
+    background-image: url('https://i.postimg.cc/BQg8B7Mh/image.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    padding-block: 5rem;
+}
+
+#Contactme {
+    position: relative;
+    z-index: 1;
+}

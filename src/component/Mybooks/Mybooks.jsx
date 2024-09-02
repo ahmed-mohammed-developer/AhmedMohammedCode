@@ -15,7 +15,7 @@ const Mybooks = () => {
             <span className="line"></span>
           </div>
           {datamybooks.map((item, index) => (
-            <div className="col-lg-4 col-md-6 col-sm-6" key={index}>
+            <div className="col-lg-4 col-md-6 col-sm-12" key={index}>
               <div className="card cardlastprojict">
                 <iframe src={item.view} width="100%" height="440px"></iframe>
               </div>
