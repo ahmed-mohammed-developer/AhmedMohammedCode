@@ -55,6 +55,26 @@
 "date": "2024-08-14T10:10:00Z",
 "qalip": "https://ahmed-mohammed-developer.github.io/qalipAhmedMahmmed/#/Details/27"
 }
-    ]
+    ],
+    "blog": [
+      { "id": 1,
+      "title": "صلاتك صلاتك", 
+      "description": "حينما يتحدث أحدهم عن الصلاة تجد أنه يكرر الكلمة أكثر من مرة مرات متتالية لأن الكلمة تشرح مضمونها ومبتغاها .يالله فقط كلمة الصلاة كفيلة بتحريك كثير من الأشياء بداخلك ومنها حلاوة الصلاة والوقوف بين يد الله عز وجل .كلمة الصلاة كفيلة بزجرك عند التقصير والتخاذل في أدائها .", 
+      "img": "https://i.postimg.cc/BQg8B7Mh/image.jpg",
+      "view": "https://gohodhod.com/@ahmed-mohammed/issues/6973?preview_token=251bcf30-d1c1-4bc5-a512-e19d3ad970df"
+      },
+      { "id": 2,
+      "title": "شركة عربي", 
+      "description": "موقع شركة عربي يحتوي على مشاريع الشركة كذلك مدونة خاصة بالشركة بالإضافة إلى صفحة الأعضاء  وصفحة التواصل تم تصميم الموقع بأحدث التقنيات الحالية , ويمكن إضافة بعض الصفحات الخاصة بكل شركة , فكل شركة لها نموذج خاص", 
+      "img": "https://i.postimg.cc/h4s4b8kH/Company.png",
+      "view": "https://ahmed-mohammed-developer.github.io/company-website-public/"
+      },
+      { "id": 3,
+      "title": "صفحة الخطأ 404", 
+      "description": "صفحة الخطأ 404 هي صفحة من المهم وجودها في جميع المواقع , بعض المبرمجين والمصممين يعتنون بهذا الأمر والبعض لا .", 
+      "img": "https://i.postimg.cc/m2r9Qg5y/404.png",
+      "view": "https://ahmed-mohammed-developer.github.io/404_Error_Page_public/"
+      }
+          ]
   }
 

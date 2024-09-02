@@ -1,0 +1,4 @@
+.card-body .line3 {
+    -webkit-line-clamp: 3; /* عدد الأسطر التي تريد عرضها */
+
+}
