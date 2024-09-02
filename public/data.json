@@ -26,7 +26,8 @@
 "ByUrl": "",
 "tech": ["Html","CSS", "JavaScript", "Bootstrap library", "Google fonts", "Font Awesome library", "Responsive", "webpack"],
 "type": ["متجر إلكتروني"],
-"date": "2024-08-15T10:10:00Z"
+"date": "2024-08-15T10:10:00Z",
+"qalip": "https://ahmed-mohammed-developer.github.io/qalipAhmedMahmmed/#/Details/25"
 },
 { "id": 2,
 "title": "شركة عربي", 
@@ -38,7 +39,8 @@
 "ByUrl": "",
 "tech": ["Html","CSS", "JavaScript", "Bootstrap library", "Sass", "Google fonts", "Font Awesome library", "Responsive", "webpack"],
 "type": ["موقع شركة"],
-"date": "2024-08-14T10:10:00Z"
+"date": "2024-08-14T10:10:00Z",
+"qalip": "https://ahmed-mohammed-developer.github.io/qalipAhmedMahmmed/#/Details/26"
 },
 { "id": 3,
 "title": "صفحة الخطأ 404", 
@@ -50,7 +52,8 @@
 "ByUrl": "",
 "tech": ["Html","CSS", "Bootstrap library", "Google fonts",  "Responsive"],
 "type": ["أخرى","404"],
-"date": "2024-08-14T10:10:00Z"
+"date": "2024-08-14T10:10:00Z",
+"qalip": "https://ahmed-mohammed-developer.github.io/qalipAhmedMahmmed/#/Details/27"
 }
     ]
   }
