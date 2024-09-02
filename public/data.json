@@ -75,6 +75,24 @@
       "img": "https://i.postimg.cc/6pP1TcJ3/2.png",
       "view": "https://gohodhod.com/@ahmed-mohammed/issues/3957?preview_token=5fd19284-a9ae-4ff2-ac9d-0301851ff94c"
       }
-          ]
+          ],
+          "mybooks": [
+            { "id": 1,
+            "title": "8 خطوات لإتقان البيع", 
+            "view": "../src/assets/book/8 خطوات لإتقان البيع.pdf"
+            },
+            { "id": 2,
+            "title": "8 مهارات خفية لإتقان البيع", 
+            "view": "../src/assets/book/8-مهارات-خفية-لإتقان-البيع-أحمد-زعكان-.pdf"
+            },
+            { "id": 3,
+            "title": "أساسيات المبيعات", 
+            "view": "../src/assets/book/أساسيات المبيعات-أحمد زعكان.pdf"
+            },
+            { "id": 4,
+            "title": "أسس التسويق", 
+            "view": "../src/assets/book/أسس التسويق-أحمد زعكان.pdf"
+            }
+                ]
   }
 

@@ -1,36 +1,23 @@
 import data from "../../../public/data.json";
-import { FaChevronLeft } from "react-icons/fa";
 
 
 
 
 
 const Mybooks = () => {
-  const datablog = data.blog;
+  const datamybooks = data.mybooks;
   return (
-    <div className="latestworks" id="Latestarticles" style={{backgroundColor: "#fff"}}>
+    <div className="latestworks" id="Mybooks">
       <div className="container">
         <div className="row">
           <div className="section-title">
-            <h2>أحدث المقالات</h2>
+            <h2>المؤلفات</h2>
             <span className="line"></span>
           </div>
-          {datablog.map((item, index) => (
-            <div className="col-lg-4 col-md-6 col-sm-12" key={index}>
+          {datamybooks.map((item, index) => (
+            <div className="col-lg-4 col-md-6 col-sm-6" key={index}>
               <div className="card cardlastprojict">
-              <a href={item.view} target="_blank">
-                <img className="card-img-top" src={item.img} alt={item.title} />
-                <div className="card-body">
-                  <h5 className="card-title">{item.title}</h5>
-                  <p className="card-text line3">{item.description}</p>
-                </div>
-                </a>
-                <div className="moreread">
-                    <a href={item.view} target="_blank">
-                        إقرأ المزيد
-                         <FaChevronLeft className="pe-2"/>
-                    </a>
-                </div>
+                <iframe src={item.view} width="100%" height="440px"></iframe>
               </div>
             </div>
           ))}
