@@ -34,12 +34,11 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav me-auto my-2 my-lg-0">
-                        <li className="nav-item"><a className="nav-link margintop" href="#home">الرئسية</a></li>
+                        <li className="nav-item"><a className="nav-link margintop" href="#hero">الرئسية</a></li>
                         <li className="nav-item"><a className="nav-link" href="#Latestworks">أحدث الأعمال</a></li>
                         <li className="nav-item"><a className="nav-link" href="#Latestarticles">أحدث المقالات</a></li>
                         <li className="nav-item"><a className="nav-link" href="#Mybooks">المؤلفات</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#qalip">قالب</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#blog">المدونة</a></li>
+                        <li className="nav-item"><a className="nav-link" href="https://ahmed-mohammed-developer.github.io/qalipAhmedMahmmed/" target='_blank'>قالب</a></li>
                     </ul>
                 </div>
             </div>

@@ -1,8 +1,11 @@
 .footer {
-}
-.main-footer {
     padding-block: 5rem;
     background-color: #223b40;
+    padding-inline: 2rem;
+}
+.main-footer {
+   
+
 }
 .imgSection a {
     text-decoration: none;

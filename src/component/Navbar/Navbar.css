@@ -13,6 +13,12 @@
     color: #fff;
     transition: 1s;
 }
+.navbar-brand:focus {
+    color: #fff;
+}
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
 .navbar-toggler {
     border: none;
     outline: none;

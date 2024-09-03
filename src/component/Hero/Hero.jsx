@@ -56,7 +56,7 @@ var settings = {
 const Hero = () => {
   const dataHero = data.hero;
   return (
-    <div className="hero">
+    <div className="hero" id='hero'>
       <div className="container">
         <Slider {...settings}>
           {dataHero.map((item, index) => (
