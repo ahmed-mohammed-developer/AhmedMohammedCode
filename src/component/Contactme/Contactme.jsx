@@ -1,5 +1,3 @@
-import data from "../../../public/data.json";
-import { FaChevronLeft } from "react-icons/fa";
 import './Contactme.css'
 
 
@@ -7,38 +5,36 @@ import './Contactme.css'
 
 
 const Contactme = () => {
-  const datablog = data.blog;
   return (
     <div className="Contactme" id="Contactme">
       <div className="container">
         <div className="row">
-          <div className="section-title">
-            <h2>أحدث المقالات</h2>
-            <span className="line"></span>
-          </div>
-          {datablog.map((item, index) => (
-            <div className="col-lg-4 col-md-6 col-sm-12" key={index}>
+            <div className="col-lg-9 col-md-9 col-sm-12 mx-auto">
               <div className="card cardlastprojict">
-              <a href={item.view} target="_blank">
-                <div></div>
-                <img className="card-img-top" src={item.img} alt={item.title} />
-                <div className="card-body">
-                  <h5 className="card-title">{item.title}</h5>
-                  <p className="card-text line3">{item.description}</p>
-                </div>
-                </a>
-                <div className="moreread">
-                    <a href={item.view} target="_blank">
-                        إقرأ المزيد
-                         <FaChevronLeft className="pe-2"/>
-                    </a>
-                </div>
+              <div className="section-title">
+            <h2>فلنصنع شياَ عظيماَ معاَ😊</h2>
+          </div>
+          <div className="user">
+            <img src="https://i.postimg.cc/W4WrJyKZ/call.png" alt="user img" />
+          </div>
+          <div className="iconcontact">
+          <p><a href="tel:0506353350">0506353350</a></p>
+          <i className="fas fa-phone iconcon"></i>
+          </div>
+          <div className="iconcontact">
+          <p><a href="mailto:ahmed.mohammed.developer@gmail.com">ahmed.mohammed.developer@gmail.com</a></p>
+          <i className="fas fa-envelope iconcon"></i>
+          </div>
+          <div className="iconcontact">
+          <p><a href="https://wa.me/966506353350">966506353350</a></p>
+          <i className="fab fa-whatsapp iconcon"></i>
+          </div>
               </div>
             </div>
-          ))}
         </div>
       </div>
     </div>
+    
   );
 };
 

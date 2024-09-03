@@ -1,8 +1,6 @@
 import "./Latestworks.css";
 import data from "../../../public/data.json";
-import { FaGithub } from "react-icons/fa6";
-import { FaEye } from "react-icons/fa";
-import { GiTempleGate } from "react-icons/gi";
+
 
 
 
@@ -27,17 +25,11 @@ const Latestworks = () => {
                   <p className="card-text">{item.description}</p>
                 </div>
                 </a>
-                <div className="cardIcon">
-                <a href={item.qalip} target="_blank">
-                <GiTempleGate className="iconcard" />
-                </a>
-                <a href={item.view} target="_blank">
-              <FaEye className="iconcard" />
-              </a>
-              <a href={item.download} target="_blank">
-              <FaGithub className="iconcard" />
-              </a>
-              </div>
+              <ul>
+                <li><a href={item.download} target="_blank"><i className="fa-brands fa-github" aria-hidden="true"></i></a></li>
+                <li><a href={item.view} target="_blank"><i className="fa-regular fa-eye" aria-hidden="true"></i></a></li>
+                <li><a href={item.qalip} target="_blank"><i className="fas fa-mapfas fa-location-arrow" aria-hidden="true"></i></a></li>
+            </ul>
               </div>
             </div>
           ))}
