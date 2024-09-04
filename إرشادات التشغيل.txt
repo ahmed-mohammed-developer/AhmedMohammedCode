@@ -1,0 +1,15 @@
+تثبيت الحزم:
+افتح Terminal في Visual Studio Code (يمكنك الضغط على `Ctrl + ``).
+تأكد من أنك في مجلد المشروع، ثم قم بتشغيل الأمر التالي لتثبيت الحزم:
+npm install
+
+npm install react-slick slick-carousel
+
+
+npm install slick-carousel
+
+npm install react-icons --save
+
+تشغيل المشروع:
+بعد تثبيت الحزم، يمكنك تشغيل المشروع باستخدام الأمر:
+npm run dev

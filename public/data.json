@@ -1,18 +1,18 @@
 {
     "hero": [
-      { "id": 1,
-       "img": "https://i.postimg.cc/RhgWc6zb/1.png"
-      },
       {
-        "id" : 2,
+        "id" : 1,
         "img": "https://i.postimg.cc/bJjS8fTL/4.png"
       },
+      { "id": 2,
+      "img": "https://i.postimg.cc/Kzrk8ppb/3.png"
+     },
       { "id": 3,
-       "img": "https://i.postimg.cc/Kzrk8ppb/3.png"
+       "img": "https://i.postimg.cc/gjzwXy1Z/2.png"
       },
       {
         "id" : 4,
-        "img": "https://i.postimg.cc/gjzwXy1Z/2.png"
+        "img": "https://i.postimg.cc/RhgWc6zb/1.png"
     }
     ],
     "progict": [
@@ -79,20 +79,23 @@
           "mybooks": [
             { "id": 1,
             "title": "8 خطوات لإتقان البيع", 
-            "view": "../src/assets/book/8 خطوات لإتقان البيع.pdf"
+            "img": "https://i.postimg.cc/d18rs6Yz/1.png",
+            "down": "https://drive.google.com/file/d/16mtIVj0SzGzTJ334MlViJsppVDPj4zCX/view"
             },
             { "id": 2,
             "title": "8 مهارات خفية لإتقان البيع", 
-            "view": "../src/assets/book/8-مهارات-خفية-لإتقان-البيع-أحمد-زعكان-.pdf"
+            "img": "https://i.postimg.cc/brgnbvdg/3.png",
+            "down": "https://drive.google.com/file/d/1FlD5Oh030KX1N5Gm0E94wPVJ1XDypnhf/view"
             },
             { "id": 3,
             "title": "أساسيات المبيعات", 
-            "view": "../src/assets/book/أساسيات المبيعات-أحمد زعكان.pdf"
+            "img": "https://i.postimg.cc/3Jrmh2bc/2.png",
+            "down": "https://drive.google.com/file/d/1hr9pmf9HvqZFSttAGKTdfAZNAX4If4uj/view"
             },
             { "id": 4,
             "title": "أسس التسويق", 
-            "view": "../src/assets/book/أسس التسويق-أحمد زعكان.pdf"
+            "img": "https://i.postimg.cc/SQfCHgV9/4.png",
+            "down": "https://drive.google.com/file/d/1jKGcV15db5qQuO3g6KK3tKVdpPoLOFEb/view"
             }
                 ]
   }
-

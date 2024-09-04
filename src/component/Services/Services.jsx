@@ -14,7 +14,7 @@ const Services = () => {
               <div className="serv-section-2">
                 <div className="serv-section-2-icon"> <i className="fa-solid fa-object-group"></i> </div>
                 <div className="serv-section-desc">
-                  <h4>بناء مواقع الويب</h4>
+                  <h4> مواقع الويب</h4>
                   <h5>برمجة وتصميم مواقع الويب</h5>
                 </div>
                 <div className="section-heading-line-left"></div>

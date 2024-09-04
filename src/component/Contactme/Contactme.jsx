@@ -11,7 +11,7 @@ const Contactme = () => {
         <div className="row">
             <div className="col-lg-10 col-md-10 col-sm-12 mx-auto">
               <div className="card cardlastprojict">
-              <div className="section-title">
+              <div className="section-title titlecont">
             <h2>فلنصنع شياَ عظيماَ معاَ😊</h2>
           </div>
           <div className="user">

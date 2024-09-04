@@ -1,4 +1,7 @@
+import './Mybooks.css'
 import data from "../../../public/data.json";
+import { FaArrowDown } from "react-icons/fa";
+
 
 
 
@@ -16,8 +19,20 @@ const Mybooks = () => {
           </div>
           {datamybooks.map((item, index) => (
             <div className="col-lg-4 col-md-6 col-sm-12" key={index}>
-              <div className="card cardlastprojict">
-                <iframe src={item.view} width="100%" height="440px"></iframe>
+               <div className="card cardlastprojict">
+              <a href={item.down} target="_blank">
+                <div></div>
+                <img className="card-img-top" src={item.img} alt={item.title} />
+                <div className="card-body">
+                  <h5 className="card-title">{item.title}</h5>
+                </div>
+                </a>
+                <div className="moreread">
+                    <a href={item.down} target="_blank">
+                         تحميل الكتاب
+                         <FaArrowDown  className="pe-2 downbookicon"/>
+                    </a>
+                </div>
               </div>
             </div>
           ))}
